@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		// Si la temperatura es mayor que 25
-		if (temperatura < 25) {
+		if (temperatura > 25) {
 		    System.out.println("Hace calor!!!");
 		}else {
 			if(temperatura < 0) {

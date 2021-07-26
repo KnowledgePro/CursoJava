@@ -9,15 +9,15 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		//Salida de datos
-		/*System.out.println("Hello world"); //Tiene salto de linea
-		System.out.print("Hola mundo"); //No tiene salto de linea
+		System.out.println("Hello world"); //Tiene salto de linea
+		/*System.out.print("Hola mundo"); //No tiene salto de linea
 		System.out.print("Hola 2");
 		*/
 		
 		//Entrada de datos
-		/*
+		
 		Scanner scanner = new Scanner(System.in); //Se crea el lector
-
+		
         System.out.println("Por favor ingrese su nombre");//Se pide un dato al usuario
 
         String nombre = scanner.nextLine(); //Se lee el nombre con nextLine() que retorna un String con el dato
@@ -29,8 +29,8 @@ public class Main {
         //Nótese que ya no hubo necesidad de usar parseInt() pues nextInt nos retorna un entero derectamente
 
         System.out.println("Gracias " + nombre + " en 10 años usted tendrá " + (edad + 10) + " años."); //Operacion numerica con la edad
-        */
-		
+       
+		/*
 		//Segunda opcion lectura de datos
 		//Notar que readLine() nos obliga a declarar IOException
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); //Ya tenemos el "lector"
@@ -50,6 +50,7 @@ public class Main {
         //Si el usuario ingresó solo números funcionará bien, de lo contrario generará una excepción
 
         System.out.println("Gracias " + nombre + " en 10 años usted tendrá " + (edad + 10) + " años."); //Operacion numerica con la edad
+        */
 	}
 
 }
