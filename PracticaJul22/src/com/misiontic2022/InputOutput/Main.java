@@ -13,6 +13,11 @@ public class Main {
 		String mail = lector.nextLine();
 		System.out.println("Password: ");
 		String password = lector.nextLine();
+		System.out.println(Clase2.suma(345,248));
+		
 	}
+
+	
+	
 
 }
