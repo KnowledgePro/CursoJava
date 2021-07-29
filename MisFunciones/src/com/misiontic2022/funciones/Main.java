@@ -8,17 +8,20 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner lector = new Scanner(System.in);
 		System.out.println("Operando a:");
-		float a = lector.nextFloat();
+		double a = lector.nextDouble();
 		System.out.println("Operando b:");
-		float b = lector.nextFloat();
+		double b = lector.nextDouble();
 		System.out.println("a/b: " + dividir(a,b));
-		System.out.println("a^2: " + Aritmeticas.cuadrado(a));
+		System.out.println("a//b: " + FuncAritmeticas.divEntera(a, b));
+		System.out.println("a^2: " + FuncAritmeticas.cuadrado(a));
+		System.out.println("a^b: " + FuncAritmeticas.exponente(a, b));
+		lector.close();
 		
 	}
 	
-	public static float dividir(float a, float b){
+	public static double dividir(double a, double b){
 		if (b != 0) {
-			float resultado = a/b;
+			double resultado = a/b;
 			return resultado;
 		} else {
 			System.out.println("¡División por cero!");
