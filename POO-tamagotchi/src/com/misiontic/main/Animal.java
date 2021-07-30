@@ -6,7 +6,7 @@ public class Animal {
 	int cantidadDePatas = 4;
 	Color colordePelo;
 	float peso;
-	static int felicidad;//va de 0 a 100, 0 es triste; 100 es feliz.
+	int felicidad;//va de 0 a 100, 0 es triste; 100 es feliz.
 	int salud;//va de 0 a 100, 0 muerto, 100 muy saludable.
 	int hambre;//va de 0 a 100, 0 es famelico y 100 es muy lleno.
 	
