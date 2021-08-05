@@ -1,12 +1,12 @@
 
-public class Circulo implements FiguraGeometrica{
+public class Circulo extends FiguraGeometrica {
 	
+	private int radio;
 	int a = 2;
 
 	@Override
 	public double calcularArea() {
-		int b  = 2;
-		// TODO Auto-generated method stub
+		
 		return 0;
 	}
 
@@ -14,7 +14,7 @@ public class Circulo implements FiguraGeometrica{
 		
 	}
 
-	@Override
+	
 	public void pintar() {
 		// TODO Auto-generated method stub
 		
